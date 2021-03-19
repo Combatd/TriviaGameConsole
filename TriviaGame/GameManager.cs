@@ -45,7 +45,7 @@ namespace TriviaGame
             currentgGameIO.displayWelcomeMessage(MessageLibrary.logo);
             currentgGameIO.displayWelcomeMessage(MessageLibrary.welcome);
             Console.WriteLine(MessageLibrary.rules);
-            Console.WriteLine(MessageLibrary.menu);
+            //Console.WriteLine(MessageLibrary.menu);
             GetQuestionSet();
         }
         /// <summary>
@@ -152,7 +152,7 @@ namespace TriviaGame
                 currentgGameIO.displayWinningMessage("You got 100% corret. You Win !!!");
             }
             else{
-                currentgGameIO.displayWinningMessage("Good score. Play again and try to get 100%");
+                currentgGameIO.displayWinningMessage($"Final score: {currentPlayer.Score}. Play again and try to get 100%");
             }
 
             
