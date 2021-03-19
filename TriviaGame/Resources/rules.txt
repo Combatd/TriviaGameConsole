@@ -1,0 +1,13 @@
+RULES
+* Players must correctly answer questions in the seelected category.
+* To win, a player must correctly answers a certain number of questions.
+
+GAMEPLAY
+* The player starts the game from the main menu.
+* The player can enter the number of trivia questions. (NOTE: must be 1 or greater)
+* The game randomly presents a multiple choice question.
+* The player enters their selection.
+* If the player answers correctly they receive X point(s).
+* If the player answers incorrectly the game advances to the next question.
+* The game ends once all questions have been presented and answered.
+
